@@ -77,6 +77,7 @@ describe("removeItem", function () {
     expect(actual).toEqual(expected);
   });
 });
+
 describe("updateName", function () {
   it("should not mutate the original object", function () {
     const user = { name: "Lambert", age: 99, height: "6ft" };
